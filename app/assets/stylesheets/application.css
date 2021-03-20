@@ -19,3 +19,6 @@
   background-color: red;
   display: table;
 }
+input[name=email]{
+  color: red;
+}
