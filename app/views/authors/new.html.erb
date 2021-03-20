@@ -10,6 +10,7 @@
       </ul>
     </div>
   <% end %>
+<!--add the field_with erros to each field only if there is an error.-->
   <% if @author.errors[:name].empty? %>
     <div class="field">
   <% else %>
